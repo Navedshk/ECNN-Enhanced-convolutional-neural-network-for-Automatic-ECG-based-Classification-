@@ -7,7 +7,7 @@ The system utilizes a large-scale ECG database covering over 10,000 patients to 
 
 ## Features
 
-- Multi-model heart disease classification (CNN, RNN, DNN, XGBoost)
+- Multi-model heart disease classification (E-CNN, RNN, DNN, XGBoost)
 - Advanced ECG feature extraction
 - Interactive web interface for ECG analysis
 - Real-time ECG signal visualization
@@ -19,7 +19,7 @@ Dataset link : https://physionet.org/content/ecg-arrhythmia/1.0.0/
 
 ## Models
 
-- **CNN (Convolutional Neural Network):** Hybrid CNN (H-CNN) with improved architecture
+- **E-CNN (Enhance Convolutional Neural Network):** Enhanced CNN (E-CNN) with improved architecture
 - **RNN (Recurrent Neural Network):** Specialized for temporal ECG data analysis
 - **DNN (Deep Neural Network):** Fully connected neural network for ECG classification
 - **XGBoost (Extreme Gradient Boosting):** Ensemble learning model for ECG analysis
@@ -98,8 +98,8 @@ The system extracts advanced features from ECG signals, including:
 
 ## Model Architecture
 
-### CNN Model (H-CNN)
-The Hybrid CNN (H-CNN) model is an improved version of the traditional CNN architecture. It incorporates:
+### CNN Model (E-CNN)
+The Enhanced CNN (E-CNN) model is an improved version of the traditional CNN architecture. It incorporates:
 - Multiple convolutional layers with increasing filter sizes
 - Batch normalization for improved stability
 - Max pooling layers for downsampling
